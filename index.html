@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="container text-center text-black-50 rounded" id="heading">Assignment 16</h1>
+    </header>
+    <div>
+        <h3>Question No 1</h3>
+        <input type="text" id="a" placeholder="Enter a Alphabats">
+        <h6 id="aa"></h6>
+        <button onclick="ch()">Check</button>
+    </div>
+    <div>
+        <h3>Question No 2</h3>
+        <input type="text" id="1" placeholder="Week Day Number">
+        <h6 id="1."></h6>
+        <button onclick="a()">Check</button>
+    </div>
+    <div>
+        <h3>Question No 3</h3>
+        <input type="text" id="2" placeholder="Mouth Number">
+        <h6 id="2."></h6>
+        <button onclick="b()">Check</button>
+    </div>
+    <div>
+        <h3>Question No 4</h3>
+        <input type="text" id="3" placeholder="Enter the Amount">
+        <h6 id="3."></h6>
+        <button onclick="c()">Check</button>
+    </div>
+    <div>
+        <h3>Question No 5</h3>
+        <h4>Enter the Angles of a Triangle</h4>
+        <input type="text" id="4" placeholder="First Angle">
+        <input type="text" id="4." placeholder="Second Angle">
+        <input type="text" id="4.." placeholder="Third Angle">
+        <h6 id="4..."></h6>
+        <button onclick="d()">Check</button>
+    </div>
+    <div>
+        <h3>Question No 6</h3>
+        <h4>Enter the Sides of a Triangle</h4>
+        <input type="text" id="5" placeholder="First Side">
+        <input type="text" id="5." placeholder="Second Side">
+        <input type="text" id="5.." placeholder="Third side">
+        <h6 id="5..."></h6>
+        <button onclick="e()">Check</button>
+    </div>
+    <div>
+        <h3>Question No 7</h3>
+        <h4>Enter the Sides of a Triangle</h4>
+        <input type="text" id="6" placeholder="First Side">
+        <input type="text" id="6." placeholder="Second Side">
+        <input type="text" id="6.." placeholder="Third side">
+        <h6 id="6..."></h6>
+        <button onclick="f()">Check</button>
+    </div>
+    <div>
+        <h3>Question No 8</h3>
+        <h4>Root Of the Quadratic Equation</h4>
+        <input type="text" id="7" placeholder="Enter a">
+        <input type="text" id="7." placeholder="Enter b">
+        <input type="text" id="7.." placeholder="Enter c">
+        <h6 id="7..."></h6>
+        <button onclick="g()">Check</button>
+    </div>
+    <div>
+        <h3>Question No 9</h3>
+        <h4>Calculate Profit or loss</h4>
+        <input type="text" id="8" placeholder="Enter Input">
+        <input type="text" id="8." placeholder="Enter Output">
+        <h6 id="8.."></h6>
+        <button onclick="h()">Check</button>
+    </div>
+    <div>
+        <h3>Question No 10</h3>
+        <h4>Occurrences of a character in given string.</h4>
+        <input type="text" id="9" placeholder="Enter a String">
+        <input type="text" id="9." placeholder="Enter a char">
+        <h6 id="9.."></h6>
+        <button onclick="i()">Search</button>
+    </div>
+    <div>
+        <h3>Question No 11</h3>
+        <h4>Count occurrences of a character in given string.</h4>
+        <input type="text" id="10" placeholder="Enter a String">
+        <input type="text" id="10." placeholder="Enter a char">
+        <h6 id="10.."></h6>
+        <button onclick="j()">Count</button>
+    </div>
+    <div>
+        <h3>Question No 12</h3>
+        <h4>Highest frequency character in string</h4>
+        <input type="text" id="11" placeholder="Enter String">
+        <h6 id="11."></h6>
+        <button onclick="k()">Check</button>
+    </div>
+    <div>
+        <h3>Question no 13</h3>
+        <h4>Lowest frequency character in string</h4>
+        <input type="text" id="12" placeholder="Enter String">
+        <h6 id="12."></h6>
+        <button onclick="l()">Check</button>
+    </div>
+    <div>
+        <h3>Question no 14</h3>
+        <h4>count frequency of each character in a string.</h4>
+        <input type="text" id="13" placeholder="Enter String">
+        <h6 id="13."></h6>
+        <button onclick="m()">Count</button>
+    </div>
+    <div>
+        <h3>Question No 15</h3>
+        <h4>Remove first occurrence of a character from string</h4>
+        <input type="text" id="14" placeholder="Enter String">
+        <input type="text" id="14." placeholder="Enter Character">
+        <h6 id="14.."></h6>
+        <button onclick="n()">Remove</button>
+    </div>
+    <div>
+        <h3>Question No 16</h3>
+        <h4>Remove last occurrence of a character from string</h4>
+        <input type="text" id="15" placeholder="Enter String">
+        <input type="text" id="15." placeholder="Enter Character">
+        <h6 id="15.."></h6>
+        <button onclick="o()">Remove</button>
+    </div>
+    <div>
+        <h3>Question No 17</h3>
+        <h4>Remove all occurrence of a character from string</h4>
+        <input type="text" id="16" placeholder="Enter String">
+        <input type="text" id="16." placeholder="Enter Character">
+        <h6 id="16.."></h6>
+        <button onclick="p()">Remove</button>
+    </div>
+    <div>
+        <h3>Question No 18</h3>
+        <h4>Remove all repeated characters from a given string</h4>
+        <input type="text" id="17" placeholder="Enter String">
+        <h6 id="17."></h6>
+        <button onclick="q()">Remove</button>
+    </div>
+    <div>
+        <h3>Question No 19</h3>
+        <h4>Replace first occurrence of a character with another in a string</h4>
+        <input type="text" id="18" placeholder="Enter String">
+        <input type="text" id="18." placeholder="Enter Character">
+        <input type="text" id="18.." placeholder="Enter replacing char">
+        <h6 id="18..."></h6>
+        <button onclick="r()">Replace</button>
+    </div>
+    <div>
+        <h3>Question No 20</h3>
+        <h4>Replace last occurrence of a character with another in a string</h4>
+        <input type="text" id="19" placeholder="Enter String">
+        <input type="text" id="19." placeholder="Enter Character">
+        <input type="text" id="19.." placeholder="Enter replacing char">
+        <h6 id="19..."></h6>
+        <button onclick="s()">Replace</button>
+    </div>
+    <div>
+        <h3>Question No 21</h3>
+        <h4>Replace All occurrence of a character with another in a string</h4>
+        <input type="text" id="20" placeholder="Enter String">
+        <input type="text" id="20." placeholder="Enter Character">
+        <input type="text" id="20.." placeholder="Enter replacing char">
+        <h6 id="20..."></h6>
+        <button onclick="t()">Replace</button>
+    </div>
+    <div>
+        <h3>Question No 22</h3>
+        <h4>Find first occurrence of a word from string</h4>
+        <input type="text" id="21" placeholder="Enter String">
+        <input type="text" id="21." placeholder="Enter Character">
+        <h6 id="21.."></h6>
+        <button onclick="u()">Find</button>
+    </div>
+    <div>
+        <h3>Question No 23</h3>
+        <h4>Find last occurrence of a word from string</h4>
+        <input type="text" id="22" placeholder="Enter String">
+        <input type="text" id="22." placeholder="Enter Character">
+        <h6 id="22.."></h6>
+        <button onclick="v()">Find</button>
+    </div>
+    <div>
+        <h3>Question No 24</h3>
+        <h4>Search all occurrences of a word in given string</h4>
+        <input type="text" id="24" placeholder="Enter String">
+        <input type="text" id="24." placeholder="Enter Character">
+        <h6 id="24.."></h6>
+        <button onclick="x()">Search</button>
+    </div>
+    <div>
+        <h3>Question No 25</h3>
+        <h4>Count all occurrences of a word in given string</h4>
+        <input type="text" id="23" placeholder="Enter String">
+        <input type="text" id="23." placeholder="Enter Character">
+        <h6 id="23.."></h6>
+        <button onclick="w()">Count</button>
+    </div>
+    <div>
+        <h3>Question No 26</h3>
+        <h4>Remove first occurrence of a word from string</h4>
+        <input type="text" id="25" placeholder="Enter String">
+        <input type="text" id="25." placeholder="Enter Character">
+        <h6 id="25.."></h6>
+        <button onclick="y()">Remove</button>
+    </div>
+    <div>
+        <h3>Question No 27</h3>
+        <h4>Remove last occurrence of a word from string</h4>
+        <input type="text" id="26" placeholder="Enter String">
+        <input type="text" id="26." placeholder="Enter Character">
+        <h6 id="26.."></h6>
+        <button onclick="z()">Remove</button>
+    </div>
+    <div>
+        <h3>Question No 28</h3>
+        <h4>Remove All occurrence of a word from string</h4>
+        <input type="text" id="27" placeholder="Enter String">
+        <input type="text" id="27." placeholder="Enter Character">
+        <h6 id="27.."></h6>
+        <button onclick="aa()">Remove</button>
+    </div>
+    <div>
+        <h3>Question No 29</h3>
+        <h4> Trim leading white space characters from given string</h4>
+        <input type="text" id="28" placeholder="Enter String">
+        <h6 id="28."></h6>
+        <button onclick="bb()">Trim</button>
+    </div>
+    <div>
+        <h3>Question No 30</h3>
+        <h4> Trim trailing white space characters from given string</h4>
+        <input type="text" id="29" placeholder="Enter String">
+        <h6 id="29."></h6>
+        <button onclick="cc()">Trim</button>
+    </div>
+    <div>
+        <h3>Question No 31</h3>
+        <h4> Trim leading and trailing both  white space characters from given string</h4>
+        <input type="text" id="30" placeholder="Enter String">
+        <h6 id="30."></h6>
+        <button onclick="dd()">Trim</button>
+    </div>
+    <div>
+        <h3>Question No 32</h3>
+        <h4>Remove all extra blank spaces from given string</h4>
+        <input type="text" id="31" placeholder="Enter string">
+        <h6 id="31."></h6>
+        <button onclick="ff()">Remove</button>
+    </div>
+    <div>
+        <h3>Question No 33</h3>
+        <h4>Count frequency of each element in an array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="32" placeholder="Enter Array">
+        <h6 id="32."></h6>
+        <button onclick="ee()">Count</button>
+    </div>
+    <div>
+        <h3>Question No 34</h3>
+        <h4>Print all unique elements in the array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="33" placeholder="Enter Array">
+        <p id="33."></p>
+        <button onclick="ff()">Print</button>
+    </div>
+    <div>
+        <h3>Question No 35</h3>
+        <h4>Count total number of duplicate elements in an array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="34" placeholder="Enter Array">
+        <p id="34."></p>
+        <button onclick="gg()">Print</button>
+    </div>
+    <div>
+        <h3>Question No 36</h3>
+        <h4>Delete all duplicate elements from an array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="35" placeholder="Enter Array">
+        <p id="35."></p>
+        <button onclick="hh()">Print</button>
+    </div>
+    <div>
+        <h3>Question No 37</h3>
+        <h4>Merge two array to third array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="36" placeholder="First Array"><br>
+        <input type="text" id="36." placeholder="Second Array">
+        <h6 id="36.."></h6>
+        <button onclick="ii()">Merge</button>
+    </div>
+    <div>
+        <h3>Question No 38</h3>
+        <h4>Find reverse of an array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="37" placeholder="Enter Array">
+        <h6 id="37."></h6>
+        <button onclick="jj()">Reverse</button>
+    </div>
+    <div>
+        <h3>Question No 39</h3>
+        <h4>Put even and odd elements of array in two separate array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="38" placeholder="Emter Array">
+        <h6 id="38."></h6>
+        <h6 id="38.."></h6>
+        <button onclick="kk()">Put</button>
+    </div>
+    <div>
+        <h3>Question No 40</h3>
+        <h4>Search an element in an array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="39" placeholder="Enter the Array"><br>
+        <input type="text" id="39." placeholder="Enter Searching Element">
+        <h6 id="39.."></h6>
+        <button onclick="ll()">Search</button>
+    </div>
+    <div>
+        <h3>Question No 41</h3>
+        <h4>Sort array elements in ascending and descending order</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="40" placeholder="Enter the Array">
+        <h6 id="40."></h6>
+        <button onclick="asc()">Ascending</button>
+        <button onclick="des()">Descending</button>
+    </div>
+    <div>
+        <h3>Question No 42</h3>
+        <h4>Sort even and odd elements of array separately</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="41" placeholder="Enter the Array">
+        <h6 id="41."></h6>
+        <h6 id="41.."></h6>
+        <button onclick="sort()">Sort</button>
+    </div>
+    <div>
+        <h3>Question No 43</h3>
+        <h4>Left rotate an array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="42" placeholder="Enter the Array">
+        <h6 id="42."></h6>
+        <button onclick="left()">Rotate</button>
+    </div>
+    <div>
+        <h3>Question No 44</h3>
+        <h4>Right rotate an array</h4>
+        <h5>Enter Element of Array saperate by space</h5>
+        <input type="text" id="43" placeholder="Enter the Array">
+        <h6 id="43."></h6>
+        <button onclick="right()">Rotate</button>
+    </div>
+    <div>
+        <h3>Question No 45</h3>
+        <h4>Find sum of all natural numbers between 1 to n</h4>
+        <input type="text" id="44" placeholder="Enter n value">
+        <h6 id="44."></h6>
+        <button onclick="natu()">Sum</button>
+    </div>
+    <div>
+        <h3>Question No 46</h3>
+        <h4>Find sum of all even numbers between 1 to n</h4>
+        <input type="text" id="45" placeholder="Enter n value">
+        <h6 id="45."></h6>
+        <button onclick="even()">Sum</button>
+    </div>
+    <div>
+        <h3>Question No 47</h3>
+        <h4>Find sum of all odd numbers between 1 to n</h4>
+        <input type="text" id="46" placeholder="Enter n value">
+        <h6 id="46."></h6>
+        <button onclick="odd()">Sum</button>
+    </div>
+    <div>
+        <h3>Question No 48</h3>
+        <h4>Print multiplication table of any number</h4>
+        <input type="text" id="47" placeholder="Enter any number">
+        <h6 id="47."></h6>
+        <button onclick="table()">Print Table</button>
+    </div>
+    <div>
+        <h3>Question No 49</h3>
+        <h4>Count number of digits in a number</h4>
+        <input type="text" id="48" placeholder="Enter Number">
+        <h6 id="48."></h6>
+        <button onclick="coun()">Count</button>
+    </div>
+    <div>
+        <h3>Question No 50</h3>
+        <h4>Find first and last digit of a number</h4>
+        <input type="text" id="49" placeholder="Enter number">
+        <h6 id="49."></h6>
+        <button onclick="fi()">Find</button>
+    </div>
+    <div>
+        <h3>Question No 51</h3>
+        <h4>Find sum of first and last digit of a number</h4>
+        <input type="text" id="50" placeholder="Enter Number">
+        <h6 id="50."></h6>
+        <button onclick="fin()">Sum</button>
+    </div>
+    <div>
+        <h3>Question No 52</h3>
+        <h4>Swap first and last digits of a number</h4>
+        <input type="text" id="51" placeholder="Enter Number">
+        <h6 id="51."></h6>
+        <button onclick="swap()">Swap</button>
+    </div>
+    <div>
+        <h3>Question No 53</h3>
+        <h4>Calculate sum of digits of a number</h4>
+        <input type="text" id="52" placeholder="Enter Number">
+        <h6 id="52."></h6>
+        <button onclick="cal()">Calculate</button>
+    </div>
+    <div>
+        <h3>Question No 54</h3>
+        <h4>Calculate product of digits of a number</h4>
+        <input type="text" id="53" placeholder="Enter Number">
+        <h6 id="53."></h6>
+        <button onclick="pro()">Calculate</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
